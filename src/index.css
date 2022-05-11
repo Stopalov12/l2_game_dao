@@ -1,10 +1,12 @@
+
 html,
 body {
   margin: 0;
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,68,0.7063200280112045) 35%, rgba(0,212,255,1) 100%);
   color: #fff;
   overflow-x: hidden;
 }
@@ -114,9 +116,11 @@ h1 {
   box-shadow: 3.1px 6.2px 6.2px hsl(0deg 0% 0% / 0.4);
 }
 
+
 button {
   cursor: pointer;
-  background-color: #000;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,68,0.7063200280112045) 35%, rgba(0,212,255,1) 100%);
   color: #fff;
   border: none;
   font-weight: bold;
@@ -125,10 +129,12 @@ button {
   text-transform: uppercase;
   border-radius: 3rem;
   font-size: 1.2rem;
+  
 }
 
 button:hover {
   background-color: #121212;
+  
 }
 
 button:focus {

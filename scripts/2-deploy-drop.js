@@ -5,7 +5,7 @@ import { readFileSync } from "fs";
 const buildMetaData = async () => {
   try {
     const editionDropAddress = await sdk.deployer.deployEditionDrop({
-      name: "L2Game Membership",
+      name: "L2Game",
       description:
         "The membership allows you to become a member of the L2Game community.",
       image: readFileSync("scripts/assets/gaming.png"),
