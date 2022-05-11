@@ -183,7 +183,7 @@ const App = () => {
   if (!address) {
     return (
       <div className="landing">
-        <h1>Welcome to L2G DAO</h1>
+        <h1> L2G DAO</h1>
         <button onClick={connectWithMetamask} className="button-hero">
           Connect your wallet
         </button>
@@ -349,7 +349,7 @@ const App = () => {
   // Render mint nft screen.
   return (
     <div className="mint-nft">
-      <h1>Mint your free 🍪DAO Membership NFT</h1>
+      <h1>Mint your free 🎮DAO Membership NFT</h1>
       <button disabled={isClaiming} onClick={mintNft}>
         {isClaiming ? "Minting..." : "Mint your nft (FREE)"}
       </button>
